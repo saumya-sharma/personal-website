@@ -1,0 +1,16 @@
+---
+import { NavLink } from '@astro/nav';
+
+export default function Navigation() {
+  return (
+    <nav>
+      <ul>
+        <li><NavLink href="/">Home</NavLink></li>
+        <li><NavLink href="/entrepreneurship">Entrepreneurship</NavLink></li>
+        <li><NavLink href="/physics">Physics</NavLink></li>
+        <li><NavLink href="/business">Business</NavLink></li>
+        <li><NavLink href="/health">Health</NavLink></li>
+      </ul>
+    </nav>
+  );
+}
